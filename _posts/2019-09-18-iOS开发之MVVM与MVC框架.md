@@ -23,7 +23,7 @@ view和model之间通讯的很多代码都写在ViewController中，导致ViewCo
 
 ### MVVM框架
 
-1、MVVM框架:MVVM从字面上理解为model（数据模型），viewcontroller（视图控制器），viewMode（视图模型），Binder（绑定机制）。这样用ViewModel来实现view和model之间的双向绑定。model绑定view可以用block来通讯。view绑定model可以用KVC或者是RAC等来通讯。这样一来很多逻辑代码就写在来ViewModel中。ViewController只负责他们之间的双向绑定以及必要的逻辑处理代码。这样就减轻了ViewController的负担。ViewController就不再臃肿啦。我也在网上找了两张MVVM的构架图。如下。
+1、MVVM框架:MVVM从字面上理解为model（数据模型），view--viewcontroller（视图--视图控制器），viewMode（视图模型），Binder（绑定机制）。这样用ViewModel来实现view和model之间的双向绑定。model绑定view可以用block来通讯。view绑定model可以用KVC或者是RAC等来通讯。这样一来很多逻辑代码就写在来ViewModel中。ViewController只负责他们之间的双向绑定以及必要的逻辑处理代码。这样就减轻了ViewController的负担。ViewController就不再臃肿啦。我也在网上找了两张MVVM的构架图。如下。
 
 <img src="/images/posts/iOS开发之MVVM与MVC框架/iOS开发之MVVM与MVC框架1.png" > 
 
