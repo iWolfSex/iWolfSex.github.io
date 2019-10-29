@@ -5,7 +5,7 @@ date: 2019-09-18
 tag: iOS
 ---
 ### MVC框架。斯坦福大学有一个教授讲的MVC感觉特别清楚。他用一个图清晰的介绍了MVC框架的特别清晰。展示如下
-<img src="/images/posts/iOS开发之MVVM与MVC框架/iOS开发之MVVM与MVC框架.jpeg" > 
+<img src="/images/posts/iOS开发之MVVM与MVC框架/iOS开发之MVVM与MVC框架.jpg" > 
 
 1、用上图来阐释MVC模式
 
