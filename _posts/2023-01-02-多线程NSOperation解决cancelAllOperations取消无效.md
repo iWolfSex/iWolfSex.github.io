@@ -118,8 +118,5 @@ tag: iOS
 
 ```
 
-### 注意点
-使用ancelAllOperations来取消队列中的任务。当下正在执行的任务无法取消。如果你是做一些网络请求的任务。你可以先把任务中网络请求给cancel掉。这样当前任务也不会在执行。
-
 <br>
 转载请注明：[iWolf的博客](https://iwolfsex.github.io/) » [多线程NSOperation解决cancelAllOperations取消无效](http://iWolf.com/2023/01/多线程NSOperation解决cancelAllOperations取消无效/)  
